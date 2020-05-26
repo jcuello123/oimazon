@@ -1,0 +1,44 @@
+body {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.container {
+    min-width: 30%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.products ul li,
+.departments ul li {
+    min-width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid #563d7c;
+    border-radius: 8px;
+}
+
+header nav {
+    background-color: #563d7c;
+}
+
+header nav a {
+    color: white;
+}
+
+li {
+    margin: 10px;
+}
+
+.btn {
+    background: #563d7c;
+    border: 1px solid #563d7c;
+    color: white;
+}
+
+.btn:hover {
+    background: #3c072e;
+    border: 1px solid #563d7c;
+    color: white;
+}
